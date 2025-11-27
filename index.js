@@ -233,3 +233,13 @@ client.on("interactionCreate", async (interaction) => {
 // LOGIN DEL BOT
 // ==========================
 client.login(process.env.DISCORD_TOKEN);
+
+const express = require("express");
+const app = express();
+
+app.get("/", (req, res) => res.send("Bot LSPD en funcionamiento."));
+
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`🌐 Webserver activo en Render — Puerto ${PORT}`);
+});

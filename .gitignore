@@ -1,0 +1,66 @@
+# ====== NODE & DEPENDENCIAS ======
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ====== ENTORNOS ======
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ====== LOGS ======
+logs/
+*.log
+*.log.*
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# ====== BUILD ======
+dist/
+build/
+.cache/
+.next/
+out/
+
+# ====== SISTEMA ======
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ====== TYPESCRIPT (si existiera) ======
+*.tsbuildinfo
+
+# ====== PM2 ======
+pids
+*.pid
+*.log
+
+# ====== TEMP ======
+tmp/
+temp/
+*.tmp
+*.bak
+
+# ====== TESTING ======
+coverage/
+.nyc_output/
+
+# ====== BINARY ======
+bin/
+lib/
+
+# ====== OPTIONAL ======
+#Si usas prisma
+.prisma/
+
+#Si usas nodemon
+nodemon.json
